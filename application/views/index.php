@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>THX - Charity HTML Template | Homepage</title>
+    <title>ARC IBNO ROCHD  | Accueil</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -46,10 +46,10 @@
                         <div class="item-content">
                             <div class="gb-middle ">
                                 <div class="slider-info ">
-                                    <h4>Join Charity THX</h4>
-                                    <h2>Help Senior Citizen</h2>
+                                    <h4>Arc Bno Rochd</h4>
+                                    <h2>Sous Titre</h2>
                                     <div class="buttons">
-                                        <a href="features.html" class="red-btn red-btn-0">How You Can Help?</a>
+                                        <a href="features.html" class="red-btn red-btn-0">Comment Vous aidez?</a>
                                     </div>
                                 </div>
                             </div>
@@ -62,10 +62,10 @@
                         <div class="item-content">
                             <div class="gb-middle">
                                 <div class="slider-info">
-                                    <h4>Join Charity THX</h4>
-                                    <h2>We love All Children</h2>
+                                    <h4>Arc Bno Rochd</h4>
+                                    <h2>Sous Titre2</h2>
                                     <div class="buttons">
-                                        <a href="features.html" class="red-btn red-btn-0">How You Can Help?</a>
+                                        <a href="features.html" class="red-btn red-btn-0">Comment Vous aidez?</a>
                                     </div>
                                 </div>
                             </div>
@@ -78,10 +78,10 @@
                         <div class="item-content">
                             <div class="gb-middle">
                                 <div class="slider-info">
-                                    <h4>Join Charity THX</h4>
-                                    <h2>Give a Future for Everyone</h2>
+                                    <h4>Arc Bno Rochd</h4>
+                                    <h2>Sous Titre3</h2>
                                     <div class="buttons">
-                                        <a href="features.html" class="red-btn red-btn-0">How You Can Help?</a>
+                                        <a href="features.html" class="red-btn red-btn-0">Comment Vous aidez?</a>
                                     </div>
                                 </div>
                             </div>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="container-text">
-                        <h2 class="title-text">Make Every Single Kind Gesture Count!</h2>
+                        <h2 class="title-text">Titre 4!</h2>
 
                         <div class="wave-line"></div>
                         <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -125,7 +125,7 @@
                         </p>
 
                         <div class="buttons">
-                            <a href="contact.html" class=" red-btn red-btn-1">Contact With Us</a>
+                            <a href="contact.html" class=" red-btn red-btn-1">Contactez Nous</a>
                         </div>
                     </div>
 
@@ -151,7 +151,7 @@
                         <p><img src="assets/images/circle.png" alt="circle"></p>
                     </div>
                     <div class="images-text">
-                        <h2><a href="features.html">Get Involved</a></h2>
+                        <h2><a href="features.html">news letter</a></h2>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12 text-center">
@@ -159,7 +159,7 @@
                         <p><img src="assets/images/heart.png" alt="heart"></p>
                     </div>
                     <div class="images-text">
-                        <h2><a href="login.html">Join Us</a></h2>
+                        <h2><a href="login.html">Inscrivez Vous</a></h2>
                     </div>
                 </div>
             </div>
@@ -172,7 +172,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-                        <h2 class="title-text">Charity Events</h2>
+                        <h2 class="title-text">Des événements de charité</h2>
                         <div class="wave-line wave-center"></div>
                         <p class="paragraph-black"> Fundraising event ideas have become a staple in many organizations
                             as a way to help with fundraising event planning, entertaining and engaging your donors </p>
@@ -768,3 +768,4 @@
 
 </body>
 </html>
+
