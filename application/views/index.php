@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>ARC IBNO ROCHD  | Accueil</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo base_url().'assets/css/bootstrap.min.css'; ?>">
-    <link rel="stylesheet" href="<?php echo base_url().'assets/css/manual.css'; ?>">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/animate.css'; ?>">
-    <link rel="stylesheet" href="<?php echo base_url().'assets/css/owlcarousel/owl.carousel.min.css'; ?>">
-    <link rel="stylesheet" href="<?php echo base_url().'assets/css/owlcarousel/owl.theme.default.min.css'; ?>">
-    <link rel="stylesheet" href="<?php echo base_url().'assets/css/bootstrap-responsive.min.css'; ?>">
-    <!-- Google fonts Poppins -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!-- Fontello -->
-    <link rel="stylesheet" href="<?php echo base_url().'assets/css/css-fontello/animation.css'; ?>" type="text/css"/>
-    <link rel="stylesheet" href="<?php echo base_url().'assets/css/css-fontello/fontello.css'; ?>" type="text/css"/>
-    <link rel="stylesheet" href="<?php echo base_url().'assets/css/css-fontello/fontello-codes.css'; ?>" type="text/css"/>
-    <link rel="stylesheet" href="<?php echo base_url().'assets/css/css-fontello/fontello-embedded.css'; ?>" type="text/css"/>
-    <link rel="stylesheet" href="<?php echo base_url().'assets/css/css-fontello/fontello-ie7.css'; ?>" type="text/css"/>
-    <link rel="stylesheet" href="<?php echo base_url().'assets/css/css-fontello/fontello-ie7-codes.css'; ?>" type="text/css"/>
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-<div class="page">
 
-    <!--=============================== Header ===========================-->
     <div id="header"></div>
 
     <!--=============================== Menu-Bar ========================-->
@@ -752,20 +720,4 @@
         </div>
     </div>
 
-    <!--=============================== Footer ===========================-->
-    <div id="footer"></div>
-
-</div>  <!--  /.page -->
-
-
-<!-- JS code -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="<?php echo base_url().'assets/js/jquery.spincrement.js'; ?>"></script>
-<script src="<?php echo base_url().'assets/js/owl.carousel.min.js'; ?>"></script>
-<script src="<?php echo base_url().'assets/js/scrollBar.js'; ?>"></script>
-<script src="<?php echo base_url().'assets/js/bootstrap.min.js'; ?>"></script>
-<script src="<?php echo base_url().'assets/js/myScript.js'; ?>"></script>
-
-</body>
-</html>
 

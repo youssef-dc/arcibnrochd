@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Depot extends CI_Controller {
+class Contact extends CI_Controller {
 
 	public function __construct() {
 		parent::__construct();
@@ -26,7 +26,7 @@ class Depot extends CI_Controller {
 	{
 		$this->load->view('header');
 		$this->load->view('menu');
-		$this->load->view('depot');
+		$this->load->view('contact');
 		$this->load->view('footer');
 	}
 }

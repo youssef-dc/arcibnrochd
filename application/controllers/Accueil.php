@@ -2,9 +2,12 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Accueil extends CI_Controller {
+	
 
 	public function __construct() {
 		parent::__construct();
+		$this->menu = 'accueil' ;
+		$this->data['active_'.$this->menu] = 'active' ;
 	}
 
 	/**
@@ -23,9 +26,9 @@ class Accueil extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
-	{
+	{	
 		$this->load->view('header');
-		$this->load->view('menu');
+		$this->load->view('menu', $this->data);
 		$this->load->view('index');
 		$this->load->view('footer');
 	}

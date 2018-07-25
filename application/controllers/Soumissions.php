@@ -1,10 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Soumissions extends CI_Controller {
 
 	public function __construct() {
 		parent::__construct();
+		$this->menu = 'accueil' ;
+		$this->data['active_'.$this->menu] = 'active' ;
 	}
 
 	/**
@@ -24,6 +26,9 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$this->load->view('header');
+		$this->load->view('menu');
+		$this->load->view('soumissions', $this->data);
+		$this->load->view('footer');
 	}
 }

@@ -58,6 +58,20 @@ class CI_Controller {
 	 */
 	private static $instance;
 
+
+	/**
+	 * menu active
+	 *
+	 * @var	string
+	 */
+	public $menu = '';
+
+	/**
+	 * data array sent to view
+	 *
+	 * @var	string
+	 */
+	public $data = '';
 	/**
 	 * Class constructor
 	 *

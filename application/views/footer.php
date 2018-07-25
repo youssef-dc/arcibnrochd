@@ -109,3 +109,20 @@
     </div>
 
 </footer>
+
+    <!--=============================== Footer ===========================-->
+    <div id="footer"></div>
+
+</div>  <!--  /.page -->
+
+
+<!-- JS code -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="<?php echo base_url().'assets/js/jquery.spincrement.js'; ?>"></script>
+<script src="<?php echo base_url().'assets/js/owl.carousel.min.js'; ?>"></script>
+<script src="<?php echo base_url().'assets/js/scrollBar.js'; ?>"></script>
+<script src="<?php echo base_url().'assets/js/bootstrap.min.js'; ?>"></script>
+<script src="<?php echo base_url().'assets/js/myScript.js'; ?>"></script>
+
+</body>
+</html>
