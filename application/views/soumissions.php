@@ -7,8 +7,8 @@
         <div class="shadow-main">
             <h1> Inscription </h1>
             <ul class="breadcrumb breadcrumb-news">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -20,13 +20,13 @@
                 
                 <div class="col-md-8 col-sm-6 col-xs-12">
                     <div class="leave-reply">
-                        <form action="...">
+                        <form action="<?php echo base_url().'soumission/save'; ?>" method="POST">
                             <div class="form-group">
                                 <select class="form-group">
-                                  <option value="volvo">Volvo</option>
-                                  <option value="saab">Saab</option>
-                                  <option value="mercedes">Mercedes</option>
-                                  <option value="audi">Audi</option>
+                                  <option value="volvo">1</option>
+                                  <option value="saab">2</option>
+                                  <option value="mercedes">3</option>
+                                  <option value="audi">4</option>
                                 </select>
                             </div>
                             <div class="form-group">

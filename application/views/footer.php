@@ -6,16 +6,16 @@
 
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb">
                         <div class="footer-about-info">
-                            <h4> About Us </h4>
+                            <h4> A Propos </h4>
                             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                                 eiusmod tempor incid- idunt ut labore et dolore magna aliqua. </p>
                             <ul>
                                 <li><i class="icon-location-1"></i>
-                                    <span>Florida 123 6th St. Melbourne, FL 32904 </span></li>
+                                    <span>Casablanca </span></li>
                                 <li><i class="icon-phone"></i>
-                                    <span>Phone: 800-879-6497</span></li>
+                                    <span>Phone: 2126-111-222-333</span></li>
                                 <li><i class="icon-mail"></i>
-                                    <span>Email: <a href="mailto:#">thx@yoursite.com</a></span></li>
+                                    <span>Email: <a href="mailto:#">contact@arcibnorochd.com</a></span></li>
                             </ul>
                         </div>
                         <div class="social-link footer-social-link">
@@ -32,14 +32,14 @@
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb">
-                        <h4> Our News </h4>
+                        <h4>News </h4>
                         <div class="news-1">
                             <a href="blog-single.html">
                                 <img src="http://via.placeholder.com/68x68" alt="...">
                             </a>
                             <div class="news">
                                 <h5 class="news-h"><a href="blog-single.html">Water Isn&#8217;t All Africa Needs</a></h5>
-                                <p class="date">June 28, 2017</p>
+                                <p class="date">June 28, 2018</p>
                             </div>
                         </div>
                         <div class="news-2">
@@ -49,7 +49,7 @@
                             <div class="news">
                                 <h5 class="news-h"><a href="blog-single.html">Protection Is Not an Option &#8211; It&#8217;s an
                                     Obligation</a></h5>
-                                <p class="date">June 28, 2017</p>
+                                <p class="date">June 28, 2018</p>
                             </div>
                         </div>
                         <div class="news-3">
@@ -58,13 +58,13 @@
                             </a>
                             <div class="news">
                                 <h5 class="news-h"><a href="blog-single.html">How Does the Bible Define Poverty?</a></h5>
-                                <p class="date">June 28, 2017</p>
+                                <p class="date">June 28, 2018</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb">
-                        <h4> Contact Us </h4>
+                        <h4> Contactez nous</h4>
                         <form action="...">
                             <div class="form-group">
                                 <input id="first_name" name="first_name" type="text" placeholder="Name"
@@ -100,9 +100,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <p class="copy-title">Copyright &copy; 2017 thx. Theme by
-                        <a href="https://fruitfulcode.com/" target="_blank">fruitfulcode</a>
-                    </p>
+                    <p class="copy-title">Copyright &copy; 2018 <a href="https://www.digitalcore.ma/" target="_blank">DigitalCore</a>
+                    </p
                 </div>
             </div>
         </div>
