@@ -4,8 +4,7 @@
 			<div class="navbar-header">
 				<div class="logo">
 					<a href="index.html" class="navbar-brand">
-						<img src="assets/images/logo.png" alt="Homepage logo">
-						<span>thx</span>
+						<img src="http://via.placeholder.com/68x68" alt="Homepage logo">
 					</a>
 				</div>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
