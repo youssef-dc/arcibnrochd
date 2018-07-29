@@ -842,19 +842,19 @@ footer:-ms-input-placeholder {
 }
 
 .slide_1 {
-    background-image: url("http://via.placeholder.com/1920x1280");
+    background-image: url("../../assets/images/1920x1280.jpg");
     background-repeat: no-repeat;
     background-position: 2% 39%;
 }
 
 .slide_2 {
-    background-image: url("http://via.placeholder.com/1920x1280");
+    background-image: url("../../assets/images/1920x1280_2.jpeg");
     background-repeat: no-repeat;
     background-position: 2% 45%;
 }
 
 .slide_3 {
-    background-image: url("http://via.placeholder.com/1920x1280");
+    background-image: url("../../assets/images/1920x1280_3.jpg");
     background-repeat: no-repeat;
     background-position: 2% 73%;
 }

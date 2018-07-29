@@ -17,7 +17,7 @@
                                     <h4>Arc Bno Rochd</h4>
                                     <h2>Sous Titre</h2>
                                     <div class="buttons">
-                                        <a href="features.html" class="red-btn red-btn-0">Comment Vous aidez?</a>
+                                        <a href="<?php  echo base_url().'soumission'; ?>" class="red-btn red-btn-0">Soumission</a>
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div>
-                        <p><img src="http://via.placeholder.com/570x540" alt="woman-girl"></p>
+                        <p><img src="<?php echo base_url().'assets/images/570x540.jpeg'; ?>" alt="woman-girl"></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
@@ -390,8 +390,8 @@
                             <div class="scale-bar-1" data-percent="43"></div>
                             <div class="scale-bar-percent">43%</div>
                         </div>
-                        <h6>5730.00 USD</h6>
-                        <h6 class="pull-right">112000.00 USD</h6>
+                        <h6>5730.00 MAD</h6>
+                        <h6 class="pull-right">112000.00 MAD</h6>
                     </div>
                     <div class="buttons">
                         <a href="single-causes.html" class=" red-btn red-btn-4">Donate</a>
@@ -419,8 +419,8 @@
                             <div class="scale-bar-1" data-percent="87"></div>
                             <div class="scale-bar-percent">87%</div>
                         </div>
-                        <h6>5730.00 USD</h6>
-                        <h6 class="pull-right">112000.00 USD</h6>
+                        <h6>5730.00 MAD</h6>
+                        <h6 class="pull-right">112000.00 MAD</h6>
                     </div>
                     <div class="buttons">
                         <a href="single-causes.html" class=" red-btn red-btn-4">Donate</a>
@@ -449,8 +449,8 @@
                             <div class="scale-bar-1 stop" data-percent="62"></div>
                             <div class="scale-bar-percent">62%</div>
                         </div>
-                        <h6>5730.00 USD</h6>
-                        <h6 class="pull-right">112000.00 USD</h6>
+                        <h6>5730.00 MAD</h6>
+                        <h6 class="pull-right">112000.00 MAD</h6>
                     </div>
                     <div class="buttons">
                         <a href="single-causes.html" class=" red-btn red-btn-4">Donate</a>
@@ -672,49 +672,49 @@
             <div class="photo-link">
                 <a href="gallery.html" class="img-link">
                     <span><i class="icon-eye" aria-hidden="true"></i></span>
-                    <img src="http://via.placeholder.com/240x240" alt="" class="img-small">
+                    <img src="<?php echo base_url().'assets/images/test2.jpeg'; ?>" alt="" class="img-small">
                 </a>
             </div>
             <div class="photo-link">
                 <a href="gallery.html" class="img-link">
                     <span><i class="icon-eye" aria-hidden="true"></i></span>
-                    <img src="http://via.placeholder.com/240x240" alt="" class="img-small">
+                    <img src="<?php echo base_url().'assets/images/test2.jpeg'; ?>" alt="" class="img-small">
                 </a>
             </div>
             <div class="photo-link">
                 <a href="gallery.html" class="img-link">
                     <span><i class="icon-eye" aria-hidden="true"></i></span>
-                    <img src="http://via.placeholder.com/240x240" alt="" class="img-small">
+                    <img src="<?php echo base_url().'assets/images/test2.jpeg'; ?>" alt="" class="img-small">
                 </a>
             </div>
             <div class="photo-link">
                 <a href="gallery.html" class="img-link">
                     <span><i class="icon-eye" aria-hidden="true"></i></span>
-                    <img src="http://via.placeholder.com/240x240" alt="" class="img-small">
+                    <img src="<?php echo base_url().'assets/images/test2.jpeg'; ?>" alt="" class="img-small">
                 </a>
             </div>
             <div class="photo-link">
                 <a href="gallery.html" class="img-link">
                     <span><i class="icon-eye" aria-hidden="true"></i></span>
-                    <img src="http://via.placeholder.com/240x240" alt="" class="img-small">
+                    <img src="<?php echo base_url().'assets/images/test2.jpeg'; ?>" alt="" class="img-small">
                 </a>
             </div>
             <div class="photo-link">
                 <a href="gallery.html" class="img-link">
                     <span><i class="icon-eye" aria-hidden="true"></i></span>
-                    <img src="http://via.placeholder.com/240x240" alt="" class="img-small">
+                    <img src="<?php echo base_url().'assets/images/test2.jpeg'; ?>" alt="" class="img-small">
                 </a>
             </div>
             <div class="photo-link">
                 <a href="gallery.html" class="img-link">
                     <span><i class="icon-eye" aria-hidden="true"></i></span>
-                    <img src="http://via.placeholder.com/240x240" alt="" class="img-small">
+                    <img src="<?php echo base_url().'assets/images/test2.jpeg'; ?>" alt="" class="img-small">
                 </a>
             </div>
             <div class="photo-link">
                 <a href="gallery.html" class="img-link">
                     <span><i class="icon-eye" aria-hidden="true"></i></span>
-                    <img src="http://via.placeholder.com/240x240" alt="" class="img-small">
+                    <img src="<?php echo base_url().'assets/images/test2.jpeg'; ?>" alt="" class="img-small">
                 </a>
             </div>
         </div>
