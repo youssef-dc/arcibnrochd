@@ -17,7 +17,7 @@
                                     <h4>Arc Bno Rochd</h4>
                                     <h2>Sous Titre</h2>
                                     <div class="buttons">
-                                        <a href="<?php  echo base_url().'soumission'; ?>" class="red-btn red-btn-0">Soumission</a>
+                                        <a href="<?php  echo base_url().'Soumission'; ?>" class="red-btn red-btn-0">Soumission</a>
                                     </div>
                                 </div>
                             </div>

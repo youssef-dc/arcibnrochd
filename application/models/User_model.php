@@ -1,5 +1,5 @@
 <?php 
-class Login_model extends CI_Model {
+class User_model extends CI_Model {
 
         public $nom;
         public $prenom;
@@ -11,10 +11,10 @@ class Login_model extends CI_Model {
         public $pays;
         public $telephone;
         public $GSM;
-        public $code_postale;
-        public $ville;
-        public $pays;
-        public $membre_arc;
+
+        public $email;
+        public $membre;
+       
 
         public function get_last_ten_entries()
         {
@@ -34,10 +34,11 @@ class Login_model extends CI_Model {
                 $this->pays  = $_POST['pays'];
                 $this->telephone    = $_POST['telephone']; 
                 $this->GSM  = $_POST['GSM'];
-                $this->code_postale    = $_POST['code_postale']; 
-                $this->prenom  = $_POST['prenom'];
-                $this->service    = $_POST['service']; 
-                $this->etablissement  = $_POST['etablissement'];
+                $this->email    = $_POST['email']; 
+                $this->membre  = $_POST['membre'];
+
+             //   $this->service    = $_POST['service']; 
+               // $this->etablissement  = $_POST['etablissement'];
 
 
 
@@ -54,6 +55,32 @@ class Login_model extends CI_Model {
 
                 $this->db->update('user', $this, array('id' => $_POST['id']));
         }
+
+     public function get($id)
+    {
+        $this->db->where('id', $id);
+        $query = $this->db->get('utilisateur');
+        return $query->row();
+    }
+
+public function login($username, $password)
+    {
+        $this->db->select('*');
+        $this->db->from('utilisateur');
+        $this->db->where('username', $username);
+        $this->db->where('password', $password);
+        $this->db->limit(1);
+
+        $query = $this->db->get();
+
+        if ($query->num_rows() > 0) {
+            return $query->row_array();
+        } else {
+            redirect('Compte');
+        }
+    }
+
+
 
 }
 

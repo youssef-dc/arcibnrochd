@@ -42,7 +42,8 @@
 				<i class="fa fa-lock" aria-hidden="true"></i>
 
 
-				<a href="<?php echo site_url("Compte");?>">Login or Register</a>
+                                <?php echo $prenom.' '.$nom; ?>
+				<a href="<?php echo base_url().'Compte/deconnexion';?>">Déconnexion</a>
 			</div>
 
 		</div>

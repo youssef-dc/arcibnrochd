@@ -1,12 +1,23 @@
 <?php
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class User extends CI_Controller {
+
+
+class Compte extends CI_Controller {
 
 	public function __construct() {
 		parent::__construct();
+
+              $this->load->library('session');
+if(isset($this->session->userdata['utilisateur'])) {
+
+;
+
+}
 		$this->menu = 'accueil' ;
 		$this->data['active_'.$this->menu] = 'active' ;
+
 	}
 
 	/**
@@ -62,5 +73,58 @@ public function update_user()
 		$this->load->view('index', $this->data);
 		$this->load->view('footer');
 	}
+
+  public function connexion() { 
+         //loading session library
+         $this->load->library('session');
+         $this->load->model('User_model');
+              $row=  $this->User_model->login($_POST['email'],$_POST['password']);
+			
+if (isset($row))
+{
+
+       $nom = '';
+       $prenom = '';
+       $email='';
+       $password='';
+  /*     
+ $utilisateur_session = array(
+'username'  => $row['username'],
+        'password'     => $row['password'],
+
+        'nom'     => $row['nom']
+
+);
+*/
+
+//$this->session->set_userdata($utilisateur_session);
+  $this->session->set_userdata('nom',$nom);
+$this->session->set_userdata('prenom',$prenom);
+$this->session->set_userdata('email',$email);
+
+
+      
+}
+
+             
+                $temp['nom'] =  $this->session->get_userdata('nom');
+                $temp['prenom'] =  $this->session->get_userdata('prenom');
+		$this->load->view('header_session',$temp);
+		$this->load->view('menu');
+		$this->load->view('index', $this->data);
+		$this->load->view('footer');
+         //removing session data 
+        // $this->session->unset_userdata('utilisateur'); 
+       //  $this->index(); 
+      } 
+
+  public function deconnexion() { 
+         //loading session library
+         $this->load->library('session');
+			
+         //removing session data 
+         $this->session->unset_userdata('utilisateur'); 
+         $this->index(); 
+      } 
 
 }

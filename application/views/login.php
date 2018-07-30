@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>THX - Charity HTML Template | Login</title>
+    <title>ARC IBN ROCHD - Connexion</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -55,7 +55,7 @@
                     <div class="leave-reply">
                         <div class="form-login">
                             <h3>Login | Register </h3>
-                            <form class="register-form form-all" action="...">
+                            <form class="register-form form-all"  method="POST" action="<?php echo base_url().'Compte/connexion'; ?>">
                                 <h4>Register:</h4>
                                 <div class="form-group">
                                     <input class="form-control" type="text" placeholder="Votre nom prenom"/>
@@ -69,7 +69,7 @@
                                 <button class="red-btn red-btn-form btn-login">Create</button>
                                 <p class="message">Already registered? <a href="#">Sign In</a></p>
                             </form>
-                            <form class="login-form form-all">
+                            <form class="login-form form-all" method="POST" action="<?php echo base_url().'Compte/connexion'; ?>">
                                 <h4>Login:</h4>
                                 
  <div class="form-group">
@@ -79,7 +79,7 @@
                                     <input class="form-control" type="password" placeholder="Password" name="password"/>
                                 </div>
                                 <button class="red-btn red-btn-form btn-login" >Login</button>
-                                <p class="message">Non enregistré? <a href="<?php echo base_url().'user/enregistrement' ?>">Nouveau compte</a></p>
+                                <p class="message">Non enregistré? <a href="<?php echo base_url().'Compte/enregistrement'; ?>">Nouveau compte</a></p>
                             </form>
                         </div>
                     </div>
