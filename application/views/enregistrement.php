@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>THX - Charity HTML Template | Login</title>
+    <title>Login | Register</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -54,28 +54,18 @@
 
                     <div class="leave-reply">
                         <div class="form-login">
-                            <h3>Login | Register </h3>
-                            <form class="register-form form-all" action="...">
-                                <h4>Register:</h4>
+                            <h3>Enregistrement </h3>
+                       
+                            <form class="login-form form-all" method="POST" action="<?php echo base_url().'Compte/ajouter_utilisateur';  ?>">
+                                <h4>Ajouter Un Compte:</h4>
                                 <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="Votre nom prenom"/>
+                                    <input class="form-control" type="text" placeholder="Nom" name="nom"/>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" type="password" placeholder="Votre password"/>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" type="email" placeholder="Votre email address"/>
-                                </div>
-                                <button class="red-btn red-btn-form btn-login">Create</button>
-                                <p class="message">Already registered? <a href="#">Sign In</a></p>
-                            </form>
-                            <form class="login-form form-all">
-                                <h4>Login:</h4>
-                                <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="Nom et Prenom" name="nom"/>
+                                    <input class="form-control" type="text" placeholder="Prenom" name="prenom"/>
                                 </div>
 
- <div class="form-group">
+                                <div class="form-group">
                                     <input class="form-control" type="text" placeholder="Email" name="email"/>
                                 </div>
                                 <div class="form-group">

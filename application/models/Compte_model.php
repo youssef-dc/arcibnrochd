@@ -1,5 +1,5 @@
 <?php 
-class User_model extends CI_Model {
+class Compte_model extends CI_Model {
 
         public $nom;
         public $prenom;
@@ -42,9 +42,32 @@ class User_model extends CI_Model {
 
 
 
+
+
                // $this->service     = time();
 
                 $this->db->insert('soumission', $this);
+                $this->db->insert('utilisateur', $this);
+        }
+
+            public function ajouter_compte()
+        {
+                $this->nom    = $_POST['nom']; 
+                $this->prenom  = $_POST['prenom'];
+           
+                $this->email    = $_POST['email']; 
+                $this->username    = $_POST['email']; 
+                $this->password  = $_POST['password'];
+
+             //   $this->service    = $_POST['service']; 
+               // $this->etablissement  = $_POST['etablissement'];
+
+
+
+               // $this->service     = time();
+
+                $this->db->insert('soumission', $this);
+                $this->db->insert('utilisateur', $this);
         }
 
         public function update_entry()

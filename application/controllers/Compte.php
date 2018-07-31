@@ -51,11 +51,11 @@ if(isset($this->session->userdata['utilisateur'])) {
 		$this->load->view('footer');
 	}
 
-public function save_user()
+public function ajouter_utilisateur()
 	{
 
-               $this->load->model('User_model');
-               $this->Login_model->insert_entry();
+               $this->load->model('Compte_model');
+               $this->Compte_model->ajouter_compte();
 		$this->load->view('header');
 		$this->load->view('menu');
 		$this->load->view('index', $this->data);
@@ -66,8 +66,8 @@ public function save_user()
 public function update_user()
 	{
 
-               $this->load->model('User_model');
-               $this->Login_model->insert_entry();
+               $this->load->model('Compte_model');
+               $this->Compte_model->insert_entry();
 		$this->load->view('header');
 		$this->load->view('menu');
 		$this->load->view('index', $this->data);
@@ -77,8 +77,8 @@ public function update_user()
   public function connexion() { 
          //loading session library
          $this->load->library('session');
-         $this->load->model('User_model');
-              $row=  $this->User_model->login($_POST['email'],$_POST['password']);
+         $this->load->model('Compte_model');
+              $row=  $this->Compte_model->login($_POST['email'],$_POST['password']);
 			
 if (isset($row))
 {
