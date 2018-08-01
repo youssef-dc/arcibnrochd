@@ -42,7 +42,7 @@
 				<i class="fa fa-lock" aria-hidden="true"></i>
 
 
-                                <?php echo $prenom.' '.$nom; ?>
+                                <?php echo $_SESSION['nom'].' '.$_SESSION['nom']; ?>
 				<a href="<?php echo base_url().'Compte/deconnexion';?>">Déconnexion</a>
 			</div>
 

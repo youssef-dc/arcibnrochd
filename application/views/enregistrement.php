@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login | Register</title>
+    <title>ARC IBNO ROCHD  | Accueil</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -75,8 +75,8 @@
 <div class="form-group">
                                     <input class="form-control" type="password" placeholder="Resaisir Password" name="password2" />
                                 </div>
-                                <button class="red-btn red-btn-form btn-login" >Login</button>
-                                <p class="message">Non enregistré? <a href="#">Nouveau compte</a></p>
+                                <button class="red-btn red-btn-form btn-login" >Ajouter</button>
+                                <p class="message"> <a href="<?php echo base_url().'Compte/enregistrement' ?>">Login</a></p>
                             </form>
                         </div>
                     </div>

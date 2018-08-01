@@ -45,7 +45,15 @@ if(isset($this->session->userdata['utilisateur'])) {
 
 	public function enregistrement()
 	{
-		$this->load->view('header');
+		if($this->session->has_userdata('username')){
+
+                   redirect('Compte');
+
+}
+
+
+
+                $this->load->view('header');
 		$this->load->view('menu');
 		$this->load->view('enregistrement', $this->data);
 		$this->load->view('footer');
@@ -98,8 +106,8 @@ if (isset($row))
 */
 
 //$this->session->set_userdata($utilisateur_session);
-  $this->session->set_userdata('nom',$nom);
-$this->session->set_userdata('prenom',$prenom);
+  $this->session->set_userdata('nom',$row['nom']);
+$this->session->set_userdata('prenom',$row['prenom']);
 $this->session->set_userdata('email',$email);
 
 
@@ -123,8 +131,10 @@ $this->session->set_userdata('email',$email);
          $this->load->library('session');
 			
          //removing session data 
-         $this->session->unset_userdata('utilisateur'); 
-         $this->index(); 
+         $this->session->unset_userdata('nom');
+         $this->session->unset_userdata('prenom');
+         $this->session->unset_userdata('email'); 
+         redirect('Accueil'); 
       } 
 
 }

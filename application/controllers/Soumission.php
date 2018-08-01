@@ -26,7 +26,10 @@ class Soumission extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('header');
+if(!$this->session->has_userdata('nom')){
+redirect ('Compte');
+}
+		$this->load->view('header_session');
 		$this->load->view('menu');
 		$this->load->view('soumissions', $this->data);
 		$this->load->view('footer');

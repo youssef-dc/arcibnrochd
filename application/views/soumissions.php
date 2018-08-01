@@ -5,7 +5,7 @@
     <!--=============================== Banner ==========================-->
     <div class="banner">
         <div class="shadow-main">
-            <h1> Inscription </h1>
+            <h1> Soumission </h1>
             <ul class="breadcrumb breadcrumb-news">
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -19,7 +19,7 @@
             <div class="row">
                                 <div class="col-md-4 col-sm-6 col-xs-12 mb-contact">
                                     <p>
-                                        <h3>Titre inscription</h3>
+                                        <h3>Titre Soumission</h3>
                                         <br/>
                                         Text Text Text Text Text Text Text Text Text Text Text Text 
                                         Text Text Text Text Text Text Text Text Text Text Text Text 

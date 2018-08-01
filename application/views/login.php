@@ -54,21 +54,8 @@
 
                     <div class="leave-reply">
                         <div class="form-login">
-                            <h3>Login | Register </h3>
-                            <form class="register-form form-all"  method="POST" action="<?php echo base_url().'Compte/connexion'; ?>">
-                                <h4>Register:</h4>
-                                <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="Votre nom prenom"/>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" type="password" placeholder="Votre password"/>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" type="email" placeholder="Votre email address"/>
-                                </div>
-                                <button class="red-btn red-btn-form btn-login">Create</button>
-                                <p class="message">Already registered? <a href="#">Sign In</a></p>
-                            </form>
+                            <h3>Se Connecter </h3>
+                           
                             <form class="login-form form-all" method="POST" action="<?php echo base_url().'Compte/connexion'; ?>">
                                 <h4>Login:</h4>
                                 
