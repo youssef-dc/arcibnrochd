@@ -79,11 +79,16 @@
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="container-text">
-                        <h2 class="title-text">Titre 4!</h2>
+                        <h2 class="title-text">ARC</h2>
 
                         <div class="wave-line"></div>
-                        <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <strong>
+                        L’Association des Médecins Résidents
+de Casablanca «ARC» est une
+association apolitique, à but non lucratif,
+ayant pour objet la défense des
+intérêts moraux, matériels et
+professionnels de ses 1200 membres.
                         </strong>
 
                         <p class="paragraph">
