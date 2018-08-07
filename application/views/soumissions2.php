@@ -28,13 +28,58 @@
                                         Text Text Text Text Text Text Text Text Text Text Text Text 
                                         Text Text Text Text Text Text Text Text Text Text Text Text 
                                     </p>
-                                     
                                 </div>
                 <div class="col-md-8 col-sm-6 col-xs-12">
                     <div class="leave-reply">
-                        <form action="<?php echo base_url().'Compte/ajouter_utilisateur'; ?>" method="POST">
+                        <form action="<?php echo base_url().'soumission/save'; ?>" method="POST">
   <fieldset>
     <legend>Inscription</legend>
+                            <div class="form-group">
+                            <select class="selectpicker form-control form-control-lg">
+
+  <optgroup label="MEDECINE">
+    <option value="anatomopathologie">  Anatomopathologie   </option>
+<option value="anesthesie-reanimation">  Anesthésie-réanimation  </option>
+<option value="biologie">  Biologie    </option>
+<option value="cardiologie">  Cardiologie </option>
+<option value="dermatologie">  Dermatologie    </option>
+<option value="endocrinologie">  Endocrinologie  </option>
+<option value="épidemiologie">  Épidémiologie   </option>
+<option value="gastro-enterologie">  Gastro-entérologie  </option>
+<option value="hematologie">  Hématologie </option>
+<option value="medecine de travail">  Médecine de travail </option>
+<option value="maladies infectieuses">  Maladies infectieuses   </option>
+<option value="medecine interne">  Médecine interne    </option>
+<option value="medecine nucleaire">  Médecine nucléaire  </option>
+<option value="medecine-physique-et-readaptation">  Médecine physique et réadaptation   </option>
+<option value="neurologie">  Neurologie  </option>
+<option value="nephrologie">  Néphrologie </option>
+<option value="oncologie medicale">  Oncologie médicale  </option>
+<option value="pneumologie">  Pneumologie </option>
+<option value="psychiatrie">  Psychiatrie </option>
+<option value="pediatrie">  Pédiatrie   </option>
+<option value="radiologie">  Radiologie  </option>
+<option value="radiotherapie">  Radiothérapie   </option>
+<option value="rhumatologie">  Rhumatologie    </option>
+
+  </optgroup>
+  <optgroup label="CHIRURGIE">
+    <option value="chirurgie-cardio-vasculaire">  Chirurgie cardio-vasculaire </option>
+<option value="chirurgie-maxillo-faciale">  Chirurgie maxillo-faciale   </option>
+<option value="chirurgie-pediatrique">  Chirurgie pédiatrique   </option>
+<option value="chirurgie-thoracique">  Chirurgie thoracique    </option>
+<option value="chirurgie-viscerale">  Chirurgie viscérale </option>
+<option value="gyneco-obstetrique">  Gynéco-obstétrique  </option>
+<option value="neurochirurgie">  Neurochirurgie  </option>
+<option value="orl">  ORL </option>
+<option value="ophtalmologie">  Ophtalmologie   </option>
+<option value="traumato-orthopedique">  Traumato-orthopédique   </option>
+<option value="urologie">  Urologie    </option>
+
+  </optgroup>
+</select>
+
+                            </div>
                             <div class="form-group">
                                 <input id="nom" name="nom" type="text" placeholder="Nom *"
                                        class="form-control" required="">
@@ -100,25 +145,13 @@
                                 <input id="email" name="email" type="text" placeholder="email *"
                                        class="form-control" required="">
                             </div>
-                            <br />
-                            
-                             
-                            
-                              <div class="form-group">
-                                  
-                                 <input class="form-control" type="password" placeholder="Password" name="password"/>
-                              
-                                </div>
-
-
-<div class="form-group">
-                                    
-                                    <input class="form-control" type="password" placeholder="Resaisir Password" name="password2" />
-                                
-                                   
-                                </div>
-                            
                             <div class="form-group">
+                                
+
+
+
+
+
 <br/>
 
                Membre ARC : &nbsp;&nbsp;&nbsp;
@@ -131,9 +164,10 @@
 
 </label>
 
+
+
+
                             </div>
-                            
-                              
 <br/>
 
        
