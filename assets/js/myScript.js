@@ -152,3 +152,58 @@ $(function() {
     }
 
 });
+
+//script pour soumission
+$("#titre").keypress(function(){
+        var num_words = $(this).val().trim().split(/\s+/).length;  
+        if (num_words > 10) {
+            $(this).closest('.form-group').find('.error').html('10 mots maximum ! <br/>');       
+            $(this).text($(this).val().split(/\s+/).slice(0,9).join(" "));
+        }else{
+            $(this).closest('.form-group').find('.error').html('');
+        }
+        
+    });
+$("#texte").keypress(function(){
+        var num_words = $(this).val().trim().split(/\s+/).length;  
+        if (num_words > 300) {
+            $(this).closest('.form-group').find('.error').html('300 mots maximum ! <br/>');       
+            $(this).text($(this).val().split(/\s+/).slice(0,299).join(" "));
+        }else{
+            $(this).closest('.form-group').find('.error').html('');
+        }
+        
+    });
+
+
+
+//modal script 
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("preview");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    $("#preview-titre").html('Titre : ' + $("#titre").val());
+    $("#preview-auteurs").html('Auteurs : ' + $("#auteurs").val());
+    $("#preview-services-etablissements").html('Service et établissement : ' + $("#services").val()+' - '+$("#etablissements").val());
+    $("#preview-texte").html('Titre : <br/>' + $("#texte").val());
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}

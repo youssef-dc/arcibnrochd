@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="<?php echo base_url().'assets/css/css-fontello/fontello-embedded.css'; ?>" type="text/css"/>
     <link rel="stylesheet" href="<?php echo base_url().'assets/css/css-fontello/fontello-ie7.css'; ?>" type="text/css"/>
     <link rel="stylesheet" href="<?php echo base_url().'assets/css/css-fontello/fontello-ie7-codes.css'; ?>" type="text/css"/>
+    
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="assets/js/respond.min.js"></script>

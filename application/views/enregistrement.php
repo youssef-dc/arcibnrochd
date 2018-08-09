@@ -35,6 +35,19 @@
                         <form action="<?php echo base_url().'Compte/ajouter_utilisateur'; ?>" method="POST">
   <fieldset>
     <legend>Inscription</legend>
+
+
+
+    <div class="form-group">
+                                <select class="selectpicker form-control form-control-lg">
+<option value="m">  M </option>
+<option value="mlle">  Mlle  </option>
+<option value="mme">  Mme   </option>
+<option value="dr">  Dr   </option>
+<option value="pr">  Pr   </option>
+
+                                </select>
+                            </div>
                             <div class="form-group">
                                 <input id="nom" name="nom" type="text" placeholder="Nom *"
                                        class="form-control" required="">
