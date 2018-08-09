@@ -7,26 +7,23 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb">
                         <div class="footer-about-info">
                             <h4> A Propos </h4>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                eiusmod tempor incid- idunt ut labore et dolore magna aliqua. </p>
+                            <p> L’Arc est une association dont l’objectif est de défendre les intérêts moraux, matériels et professionnels de ses 900 membres depuis 1997. </p>
                             <ul>
                                 <li><i class="icon-location-1"></i>
-                                    <span>Casablanca </span></li>
+                                    <span>CHU Ibn Rochd, Quartier des hôpitaux, Casablanca- Maroc </span></li>
                                 <li><i class="icon-phone"></i>
-                                    <span>Phone: 2126-111-222-333</span></li>
+                                    <span>Téléphone : 212 522 </span></li>
                                 <li><i class="icon-mail"></i>
                                     <span>Email: <a href="mailto:#">contact@arcibnorochd.com</a></span></li>
                             </ul>
                         </div>
                         <div class="social-link footer-social-link">
                             <ul>
-                                <li><a href="https://www.tumblr.com/" class="circle c-1"><i
-                                        class="icon-tumblr "></i></a></li>
-                                <li><a href="https://www.facebook.com/" class="circle c-2"><i
+                                
+                                <li><a href="https://www.facebook.com/arc.2017.2018/" class="circle c-2"><i
                                         class="icon-facebook "></i></a></li>
-                                <li><a href="https://www.pinterest.com/" class="circle c-3"><i
-                                        class="icon-pinterest "></i></a></li>
-                                <li><a href="https://vimeo.com/" class="circle c-4"><i class="icon-vimeo "></i></a></li>
+                                <li><a href="https://www.instagram.com/arcasa.ibnrochd/" class="circle c-5"><i
+                                        class="icon-instagram"></i></a></li>
                             </ul>
                         </div> <!-- footer-social-link -->
                     </div>

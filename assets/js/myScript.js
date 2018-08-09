@@ -192,7 +192,7 @@ btn.onclick = function() {
     $("#preview-titre").html('Titre : ' + $("#titre").val());
     $("#preview-auteurs").html('Auteurs : ' + $("#auteurs").val());
     $("#preview-services-etablissements").html('Service et établissement : ' + $("#services").val()+' - '+$("#etablissements").val());
-    $("#preview-texte").html('Titre : <br/>' + $("#texte").val());
+    $("#preview-texte").html('Texte : <br/>' + $("#texte").val());
     modal.style.display = "block";
 }
 

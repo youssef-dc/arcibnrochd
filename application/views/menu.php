@@ -20,7 +20,7 @@
 							<a href="<?php echo site_url("accueil");?>" class="about-us" title="Accueil">ACCUEIL</a>
 						</li>	
 						<li class="<?php echo (isset($active_evenement) ? $active_evenement : null );?>">
-							<a href="#" class="about-us" title="Evenement">EVENEMENT</a>
+							<a href="#" class="about-us" title="Evenement">JSR18</a>
 						</li>
 						<li class="last <?php echo (isset($active_contact) ? $active_contact : null) ;?>">
 							<a href="#" class="contact" title="Contact">CONTACT</a>

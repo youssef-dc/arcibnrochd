@@ -675,6 +675,11 @@ iframe{
     background-color: #d91c5c;
 }
 
+.circle.c-5 {
+    background-color: #FFA500;
+}
+
+
 .news-1,
 .news-2 {
     margin-bottom: 35px;
