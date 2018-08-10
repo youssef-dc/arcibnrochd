@@ -37,15 +37,25 @@ if(isset($this->session->userdata['utilisateur'])) {
 	 */
 	public function index()
 	{
+				if($this->session->has_userdata('email')){
+
+               $this->load->view('header_session');
+
+}
+
+else {
 		$this->load->view('header');
+	}
+	
 		$this->load->view('menu');
+        
 		$this->load->view('login', $this->data);
 		$this->load->view('footer');
 	}
 
 	public function enregistrement()
 	{
-		if($this->session->has_userdata('username')){
+		if($this->session->has_userdata('email')){
 
                    redirect('Compte');
 
@@ -64,10 +74,7 @@ public function ajouter_utilisateur()
 
                $this->load->model('Compte_model');
                $this->Compte_model->ajouter_compte();
-		$this->load->view('header');
-		$this->load->view('menu');
-		$this->load->view('index', $this->data);
-		$this->load->view('footer');
+		  redirect('accueil');
 	}
 
 

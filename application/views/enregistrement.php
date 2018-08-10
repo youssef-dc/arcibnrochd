@@ -73,7 +73,7 @@
                                        class="form-control">
                             </div>
                             <div class="form-group">
-                                <select class="selectpicker form-control form-control-lg">
+                                <select class="selectpicker form-control form-control-lg" name="ville">
                                     <option value="agadir">  Agadir  </option>
 <option value="beni mellal">  Béni Mellal </option>
 <option value="casablanca">  Casablanca  </option>
@@ -106,7 +106,7 @@
                                        class="form-control" required="">
                             </div>
                             <div class="form-group">
-                                <input id="gsm" name="gsm" type="text" placeholder="gsm *"
+                                <input id="gsm" name="GSM" type="text" placeholder="GSM *"
                                        class="form-control" required="">
                             </div>
                             <div class="form-group">
@@ -137,10 +137,10 @@
                Membre ARC : &nbsp;&nbsp;&nbsp;
                 
     <label class="radio-inline">
-      <input type="radio" name="optradio" checked>OUI
+      <input type="radio" name="membre" value="1" checked>OUI
     </label>
     <label class="radio-inline">
-      <input type="radio" name="optradio">NON
+      <input type="radio" name="membre" value="0">NON
 
 </label>
 

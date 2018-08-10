@@ -1,4 +1,4 @@
-<footer class="black">
+<footer class="black"  style="background-color:#2D4F8F;">
     <div class="footer-container">
         <div class="container">
             <div class="row">
@@ -14,7 +14,7 @@
                                 <li><i class="icon-phone"></i>
                                     <span>Téléphone : 212 522 </span></li>
                                 <li><i class="icon-mail"></i>
-                                    <span>Email: <a href="mailto:#">contact@arcibnorochd.com</a></span></li>
+                                    <span>Email: <a href="mailto:#">contact@arcibnrochd.com</a></span></li>
                             </ul>
                         </div>
                         <div class="social-link footer-social-link">
@@ -23,7 +23,7 @@
                                 <li><a href="https://www.facebook.com/arc.2017.2018/" class="circle c-2"><i
                                         class="icon-facebook "></i></a></li>
                                 <li><a href="https://www.instagram.com/arcasa.ibnrochd/" class="circle c-5"><i
-                                        class="icon-instagram"></i></a></li>
+                                        class="icon-instagram">&#xf16d;</i></a></li>
                             </ul>
                         </div> <!-- footer-social-link -->
                     </div>

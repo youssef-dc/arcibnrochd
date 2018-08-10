@@ -6,7 +6,7 @@ class Compte_model extends CI_Model {
         public $service;
         public $etablissement;
         public $adresse;
-        public $code_postale;
+        public $code_postal;
         public $ville;
         public $pays;
         public $telephone;
@@ -22,6 +22,7 @@ class Compte_model extends CI_Model {
                 return $query->result();
         }
 
+       
         public function insert_entry()
         {
                 $this->nom    = $_POST['nom']; 
@@ -29,13 +30,13 @@ class Compte_model extends CI_Model {
                 $this->service    = $_POST['service']; 
                 $this->etablissement  = $_POST['etablissement'];
                 $this->adresse    = $_POST['adresse']; 
-                $this->code_postale  = $_POST['code_postale'];
+                $this->code_postal  = $_POST['code_postal'];
                 $this->ville    = $_POST['ville']; 
                 $this->pays  = $_POST['pays'];
                 $this->telephone    = $_POST['telephone']; 
                 $this->GSM  = $_POST['GSM'];
                 $this->email    = $_POST['email']; 
-                $this->membre  = $_POST['membre'];
+                $this->membre  = boolval($_POST['membre']);
 
              //   $this->service    = $_POST['service']; 
                // $this->etablissement  = $_POST['etablissement'];
@@ -54,6 +55,15 @@ class Compte_model extends CI_Model {
         {
                 $this->nom    = $_POST['nom']; 
                 $this->prenom  = $_POST['prenom'];
+                
+                $this->service    = $_POST['service']; 
+                $this->etablissement  = $_POST['etablissement'];
+                $this->adresse    = $_POST['adresse']; 
+                $this->code_postal  = $_POST['code_postal']; 
+                $this->ville    = $_POST['ville']; 
+                $this->telephone  = $_POST['telephone'];
+                $this->GSM    = $_POST['GSM']; 
+           
            
                 $this->email    = $_POST['email']; 
                 $this->username    = $_POST['email']; 

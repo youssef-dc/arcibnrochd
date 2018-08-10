@@ -29,13 +29,13 @@
     <![endif]-->
 </head>
     <!--=============================== Header ===========================-->
-<header class="header-block black">
+<header class="header-block black" style="background-color:#2D4F8F;">
 	<div class="container">
 		<div class="row">
 
 			<div class="col-lg-8 col-sm-8 col-xs-12 lh">
 				<p>Welcome to our website! Call us: 2126-111-222-888 and send e-mail:
-					<a href="mailto:contact@arcibnorochd.com">contact@arcibnorochd.com</a>
+					<a href="mailto:contact@arcibnorochd.com">contact@arcibnrochd.com</a>
 				</p>
 			</div>
 
@@ -43,7 +43,9 @@
 				<i class="fa fa-lock" aria-hidden="true"></i>
 
 
-				<a href="<?php echo site_url("Compte");?>">Login or Register</a>
+				<a href="<?php echo site_url("Compte");?>">Login</a>
+				Ou 
+				<a href="<?php echo site_url("Compte/enregistrement");?>">Enregistrement</a>
 			</div>
 
 		</div>
