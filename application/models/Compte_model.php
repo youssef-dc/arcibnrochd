@@ -47,7 +47,6 @@ class Compte_model extends CI_Model {
 
                // $this->service     = time();
 
-                $this->db->insert('soumission', $this);
                 $this->db->insert('utilisateur', $this);
         }
 
@@ -76,7 +75,6 @@ class Compte_model extends CI_Model {
 
                // $this->service     = time();
 
-                $this->db->insert('soumission', $this);
                 $this->db->insert('utilisateur', $this);
         }
 
