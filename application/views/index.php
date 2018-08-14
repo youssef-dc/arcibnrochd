@@ -200,53 +200,29 @@ Pour s’inscrire veuillez contacter Mme Fatiha MEZIAT secrétaire de l’ARC. T
 
     <!--=============================== Photo ===========================-->
     <div class="photo-container">
-        <div class="container-fluid photo">
+        <div class="container-fluid photo" style="text-align: center;">
             <div class="photo-link">
                 <a href="gallery.html" class="img-link">
                     <span><i class="icon-eye" aria-hidden="true"></i></span>
-                    <img src="<?php echo base_url().'assets/images/test2.jpeg'; ?>" alt="" class="img-small">
+                    <img src="<?php echo base_url().'assets/images/hikma.png'; ?>" alt="" class="img-small">
                 </a>
             </div>
             <div class="photo-link">
                 <a href="gallery.html" class="img-link">
                     <span><i class="icon-eye" aria-hidden="true"></i></span>
-                    <img src="<?php echo base_url().'assets/images/test2.jpeg'; ?>" alt="" class="img-small">
+                    <img src="<?php echo base_url().'assets/images/fmpc.png'; ?>" alt="" class="img-small">
                 </a>
             </div>
             <div class="photo-link">
                 <a href="gallery.html" class="img-link">
                     <span><i class="icon-eye" aria-hidden="true"></i></span>
-                    <img src="<?php echo base_url().'assets/images/test2.jpeg'; ?>" alt="" class="img-small">
+                    <img src="<?php echo base_url().'assets/images/uhiic.png'; ?>" alt="" class="img-small">
                 </a>
             </div>
             <div class="photo-link">
                 <a href="gallery.html" class="img-link">
                     <span><i class="icon-eye" aria-hidden="true"></i></span>
-                    <img src="<?php echo base_url().'assets/images/test2.jpeg'; ?>" alt="" class="img-small">
-                </a>
-            </div>
-            <div class="photo-link">
-                <a href="gallery.html" class="img-link">
-                    <span><i class="icon-eye" aria-hidden="true"></i></span>
-                    <img src="<?php echo base_url().'assets/images/test2.jpeg'; ?>" alt="" class="img-small">
-                </a>
-            </div>
-            <div class="photo-link">
-                <a href="gallery.html" class="img-link">
-                    <span><i class="icon-eye" aria-hidden="true"></i></span>
-                    <img src="<?php echo base_url().'assets/images/test2.jpeg'; ?>" alt="" class="img-small">
-                </a>
-            </div>
-            <div class="photo-link">
-                <a href="gallery.html" class="img-link">
-                    <span><i class="icon-eye" aria-hidden="true"></i></span>
-                    <img src="<?php echo base_url().'assets/images/test2.jpeg'; ?>" alt="" class="img-small">
-                </a>
-            </div>
-            <div class="photo-link">
-                <a href="gallery.html" class="img-link">
-                    <span><i class="icon-eye" aria-hidden="true"></i></span>
-                    <img src="<?php echo base_url().'assets/images/test2.jpeg'; ?>" alt="" class="img-small">
+                    <img src="<?php echo base_url().'assets/images/laprophan.jpg'; ?>" alt="" class="img-small">
                 </a>
             </div>
         </div>
