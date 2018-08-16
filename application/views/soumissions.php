@@ -7,8 +7,8 @@
         <div class="shadow-main">
             <h1> Soumission </h1>
             <ul class="breadcrumb breadcrumb-news">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Soumissions</a></li>
             </ul>
         </div>
     </div>

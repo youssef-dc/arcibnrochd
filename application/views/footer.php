@@ -12,7 +12,7 @@
                                 <li><i class="icon-location-1"></i>
                                     <span>CHU Ibn Rochd, Quartier des hôpitaux, Casablanca- Maroc </span></li>
                                 <li><i class="icon-phone"></i>
-                                    <span>Téléphone : 212 522 </span></li>
+                                    <span>Téléphone : 0522 20 17 79 </span></li>
                                 <li><i class="icon-mail"></i>
                                     <span>Email: <a href="mailto:#">contact@arcibnrochd.com</a></span></li>
                             </ul>

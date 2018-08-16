@@ -100,7 +100,7 @@ Notre association regroupe environ 900 médecins résidents depuis la première 
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="text-center">
-                        <h2 class="title-text">Journées</h2>
+                        <h2 class="title-text">Journées Scientifiques de résidanat</h2>
                         <div class="wave-line wave-center"></div>
                         <p class="paragraph-white"></p>
                     </div>

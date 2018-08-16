@@ -2137,9 +2137,9 @@ a.white:active {
 .banner{
     position: relative;
     height: 481px;
-    background-image: url("http://via.placeholder.com/1920x480");
+    background-image: url("../../assets/images/photo1z.jpeg");
     background-size: cover;
-    background-position: 0 5%;
+    background-position: 0px 45%;
     background-repeat: no-repeat;
 }
 
@@ -4199,7 +4199,7 @@ p.about-author-paragraph:hover a{
 
 /* """"""""""   18. Contact  """""""""""""""" */
 .main-contact{
-    padding: 130px 0 135px;
+    padding: 42px 0 135px;
 }
 
 .contact strong{
