@@ -23,32 +23,28 @@
                         </div><!-- /.item-content -->
                     </div>
                 </div><!-- /.item -->
-
-                <div class="item slide_2 ">
+                <div class="item slide_2">
                     <div class="container p0">
                         <div class="item-content">
-                            <div class="gb-middle">
-                                <div class="slider-info">
-                                    <h4>Arc Bno Rochd</h4>
-                                    <h2>Sous Titre2</h2>
+                            <div class="gb-middle ">
+                                <div class="slider-info ">
+                                    <h4>Association des Médecins Résidents de Casablanca</h4>
                                     <div class="buttons">
-                                        <a href="features.html" class="red-btn red-btn-0">Comment Vous aidez?</a>
+                                        <a href="<?php  echo base_url().'Soumission'; ?>" class="red-btn red-btn-0">Soumission</a>
                                     </div>
                                 </div>
                             </div>
                         </div><!-- /.item-content -->
                     </div>
                 </div><!-- /.item -->
-
-                <div class="item slide_3 ">
+                <div class="item slide_3">
                     <div class="container p0">
                         <div class="item-content">
-                            <div class="gb-middle">
-                                <div class="slider-info">
-                                    <h4>Arc Bno Rochd</h4>
-                                    <h2>Sous Titre3</h2>
+                            <div class="gb-middle ">
+                                <div class="slider-info ">
+                                    <h4>Association des Médecins Résidents de Casablanca</h4>
                                     <div class="buttons">
-                                        <a href="features.html" class="red-btn red-btn-0">Comment Vous aidez?</a>
+                                        <a href="<?php  echo base_url().'Soumission'; ?>" class="red-btn red-btn-0">Soumission</a>
                                     </div>
                                 </div>
                             </div>
@@ -104,10 +100,9 @@ Notre association regroupe environ 900 médecins résidents depuis la première 
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="text-center">
-                        <h2 class="title-text">Our Causes</h2>
+                        <h2 class="title-text">Journées</h2>
                         <div class="wave-line wave-center"></div>
-                        <p class="paragraph-white">Fundraising event ideas have become a staple in many organizations
-                            as a way to help with fundraising event planning, entertaining and engaging your donors </p>
+                        <p class="paragraph-white"></p>
                     </div>
                 </div>
             </div>
@@ -117,13 +112,12 @@ Notre association regroupe environ 900 médecins résidents depuis la première 
                 <div class="col-lg-4 col-md-4 col-sm-6 mb">
                     <div class="person-card ">
                         <div class="person-img">
-                            <a href="our-causes.html" class="img-link">
-                                <span><i class="icon-eye" aria-hidden="true"></i></span>
-                                <img src="http://via.placeholder.com/370x300" alt="" class="img">
+                            <a href="#" class="img-link">
+                                <img src="<?php echo base_url().'assets/images/photo6a.jpeg'; ?>" alt="" class="img" style="width: 228px;">
                             </a>
                         </div>
                         <div class="person-content">
-                            <h3><a href="our-causes.html" class="title-white">Table Ronde 1 </a></h3>
+                            <h3><a href="#" class="title-white">Table Ronde 1 </a></h3>
                             <p>L’HEPATITE VIRALE C A L’ERE DE LA REVOLUTION THERAPEUTIQUE </p>
                             <p style="text-align: justify;">
                                 Hépatite virale chronique C constitue un problème de santé de part le monde. On estime à 185 millions de porteurs chroniques du VHC. Au Maroc aucune étude épidémiologique n’est disponible. Cependant, les fréquences de portage chronique du VHC sont rapportées dans des études des groupes à risque.
@@ -139,13 +133,12 @@ Quelles sont les nouveaux traitements disponibles au Maroc et quel plan stratég
                 <div class="col-lg-4 col-md-4 col-sm-6 mb">
                     <div class="person-card ">
                         <div class="person-img">
-                            <a href="our-causes.html" class="img-link">
-                                <span><i class="icon-eye" aria-hidden="true"></i></span>
-                                <img src="http://via.placeholder.com/370x300" alt="" class="img">
+                            <a href="#" class="img-link">
+                                <img src="<?php echo base_url().'assets/images/photo6b.jpeg'; ?>" alt="" class="img" style="width: 228px;">
                             </a>
                         </div>
                         <div class="person-content">
-                            <h3><a href="our-causes.html" class="title-white">Table Ronde 2 </a></h3>
+                            <h3><a href="#" class="title-white">Table Ronde 2 </a></h3>
                             <p>l’art et la médecine une belle union synergique</p>
                         </div>
                     </div>
@@ -155,13 +148,12 @@ Quelles sont les nouveaux traitements disponibles au Maroc et quel plan stratég
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="person-card ">
                         <div class="person-img">
-                            <a href="our-causes.html" class="img-link">
-                                <span><i class="icon-eye" aria-hidden="true"></i></span>
-                                <img src="http://via.placeholder.com/370x300" alt="" class="img">
+                            <a href="#" class="img-link">
+                                <img src="<?php echo base_url().'assets/images/photo6c.jpeg'; ?>" alt="" class="img" style="width: 228px;">
                             </a>
                         </div>
                         <div class="person-content">
-                            <h3><a href="our-causes.html" class="title-white">Table Ronde 3</a></h3>
+                            <h3><a href="#" class="title-white">Table Ronde 3</a></h3>
                             <p>la relation soignant –malade : exemple de l’accouchement » </p>
                         </div>
                     </div>
@@ -184,7 +176,7 @@ Pour s’inscrire veuillez contacter Mme Fatiha MEZIAT secrétaire de l’ARC. T
 
                     </p>
                     <div class="buttons">
-                        <a href="login.html" class="red-btn red-btn-5">Join Us Now</a>
+                        <a href="#" class="red-btn red-btn-5">Nous contacter</a>
                     </div>
                 </div>
             </div>

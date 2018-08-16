@@ -560,7 +560,7 @@ iframe{
 /* =======================  6. Footer  ====================== */
 .footer-container {
     position: relative;
-    padding: 74px 0 84px;
+    padding: 74px 0 6px;
     color: #fff;
     font-size: 14px;
 }
@@ -713,9 +713,10 @@ iframe{
 }
 
 #copyright {
-    padding: 37px 0;
+    padding: 13px 0;
     text-align: center;
-    border-top: 1px solid #454545;
+    border-top: 1px solid #969494;    
+    background-color: #454545;
 }
 
 .form-control {
@@ -859,7 +860,7 @@ footer:-ms-input-placeholder {
 }
 
 .slide_3 {
-    background-image: url("../../assets/images/1920x1280_3.jpg");
+    background-image: url("../../assets/images/1920x1280_1.jpeg");
     background-repeat: no-repeat;
     background-position: 2% 73%;
 }
@@ -1126,7 +1127,7 @@ a.white:active {
 
 /* ===============  7.6.Our Causes  =============== */
 .main-container-4 {
-    padding: 125px 0 135px;
+    padding: 0px 0 40px;
 }
 
 .main-container-4 .wave-line {
@@ -1287,11 +1288,10 @@ a.white:active {
 
 .offset-image-1 {
     height: 100%;
-    margin: 0 -15px;
-    background-image: url("http://via.placeholder.com/940x700");
+    background-image: url("../../assets/images/photo7.jpeg");
     background-repeat: no-repeat;
     background-position: 0 61%;
-    background-size: cover;
+    background-size: contain;
 }
 
 .red-btn-5 {

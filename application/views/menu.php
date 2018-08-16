@@ -3,7 +3,7 @@
 		<div class="container p0">
 			<div class="navbar-header">
 				<div class="logo">
-					<a href="index.html" class="navbar-brand">
+					<a href="<?php echo site_url("accueil");?>" class="navbar-brand">
 						<img src="<?php echo base_url().'assets/images/logo.jpeg'; ?>" alt="Homepage logo">
 					</a>
 				</div>
