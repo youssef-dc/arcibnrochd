@@ -38,34 +38,32 @@ redirect ('Compte');
 public function save()
 	{
 
-               $this->load->model('Soumission_model');
-               $this->Soumission_model->insert_entry();
+		$this->load->model('Soumission_model');
+		$this->Soumission_model->insert_entry();
 
+		$this->load->model('Compte_model');
+		$user = $this->Compte_model->get($_SESSION['id_compte']);
 
+		$this->load->library('email');
+		$this->email->from('contact@arcibnrochd.com'); 
+		$this->email->to($user['email']); 
+		$this->email->subject('Soumission');
+		$this->email->message('Bonjour,  \r\n Votre sumissions a bien etait enregistree. \r\n Bien a vous.');
+		if ($this->email->send())
+			{
+				$data['success'] = 'Yes';
+			}
+		else
+			{
+			$data['success'] = 'No';
+			$data['error'] = $this->email->print_debugger(array(
+				'headers'
+			));
 
-
-   $this->load->library('email');
-   $this->email->from('contact@arcibnrochd.com'); 
-   $this->email->to(''); 
-   $this->email->subject('Soumission');
-   $this->email->message('body message');
-   if ($this->email->send())
-   {
-      $data['success'] = 'Yes';
-   }
-   else
-   {
-      $data['success'] = 'No';
-      $data['error'] = $this->email->print_debugger(array(
-         'headers'
-      ));
-
-   echo " < pre > ";
-   print_r($data);
-   echo " < / pre > ";
-   }
-
-
+		echo " < pre > ";
+		print_r($data);
+		echo " < / pre > ";
+		}
 
 		$this->load->view('header');
 		$this->load->view('menu');

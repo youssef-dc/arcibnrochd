@@ -89,9 +89,11 @@ class Compte_model extends CI_Model {
 
      public function get($id)
     {
+        $this->db->select('*');
+        $this->db->from('utilisateur');
         $this->db->where('id', $id);
-        $query = $this->db->get('utilisateur');
-        return $query->row();
+        $query = $this->db->get();
+        return $query->row_array();
     }
 
 public function login($username, $password)
