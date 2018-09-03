@@ -45,10 +45,11 @@ public function save()
 		$user = $this->Compte_model->get($_SESSION['id_compte']);
 
 		$this->load->library('email');
+
 		$this->email->from('contact@arcibnrochd.com'); 
 		$this->email->to($user['email']); 
 		$this->email->subject('Soumission');
-		$this->email->message('Bonjour,  \r\n Votre sumissions a bien etait enregistree. \r\n Bien a vous.');
+		$this->email->message('Bonjour,  <br/><br/> Votre soumission a bien été enregistrée. <br/><br/> Bien à vous.');
 		if ($this->email->send())
 			{
 				$data['success'] = 'Yes';
