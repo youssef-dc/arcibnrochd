@@ -48,7 +48,8 @@ public function save()
 		$this->email->from('contact@arcibnrochd.com'); 
 		$this->email->to($user['email']); 
 		$this->email->subject('Soumission');
-		$this->email->message("Bonjour,  \r\n Votre sumissions a bien etait enregistree. \r\n Bien a vous.");
+		$config['mailtype'] = 'html';
+		$this->email->message("Bonjour,  <br /> Votre sumissions a bien etait enregistree. <br /> Bien a vous.");
 		if ($this->email->send())
 			{
 				$data['success'] = 'Yes';
