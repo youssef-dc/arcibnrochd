@@ -40,10 +40,42 @@ public function save()
 
                $this->load->model('Soumission_model');
                $this->Soumission_model->insert_entry();
+
+
+
+
+   $this->load->library('email');
+   $this->email->from('contact@arcibnrochd.com'); 
+   $this->email->to(''); 
+   $this->email->subject('Soumission');
+   $this->email->message('body message');
+   if ($this->email->send())
+   {
+      $data['success'] = 'Yes';
+   }
+   else
+   {
+      $data['success'] = 'No';
+      $data['error'] = $this->email->print_debugger(array(
+         'headers'
+      ));
+
+   echo " < pre > ";
+   print_r($data);
+   echo " < / pre > ";
+   }
+
+
+
 		$this->load->view('header');
 		$this->load->view('menu');
 		$this->load->view('index', $this->data);
 		$this->load->view('footer');
 	}
+
+
+
+
+
 
 }

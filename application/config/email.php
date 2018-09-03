@@ -4,10 +4,10 @@ defined('BASEPATH') OR exit('No direct script access allowed.');
 $config['useragent'] = 'PHPMailer'; // Mail engine switcher: 'CodeIgniter' or 'PHPMailer'
 $config['protocol'] = 'mail'; // 'mail', 'sendmail', or 'smtp'
 $config['mailpath'] = '/usr/sbin/sendmail';
-$config['smtp_host'] = 'smtp.gmail.com '; //  ssl://smtp.gmail.com  mail.arcibnrochd.com
-$config['smtp_user'] = 'abdellah.yassiine@gmail.com';  // abdellah.yassiine@gmail.com contact@arcibnrochd.com
-$config['smtp_pass'] = 'testtesy123';  // testtesy123  Admin2018,
-$config['smtp_port'] = 587;
+$config['smtp_host'] = 'mail.arcibnrochd.com '; //  ssl://smtp.gmail.com  mail.arcibnrochd.com
+$config['smtp_user'] = 'contact@arcibnrochd.com';  // 
+$config['smtp_pass'] = 'Admin2018';  // testtesy123  ,
+$config['smtp_port'] = 465;
 $config['smtp_timeout'] = 30; // (in seconds)
 $config['smtp_crypto'] = 'tls'; // '' or 'tls' or 'ssl'
 $config['smtp_debug'] = 3; // PHPMailer's SMTP debug info level: 0 = off, 1 = commands, 2 = commands and data, 3 = as 2 plus connection status, 4 = low level data output.
@@ -24,5 +24,4 @@ $config['newline'] = "\n"; // "\r\n" or "\n" or "\r"
 $config['bcc_batch_mode'] = false;
 $config['bcc_batch_size'] = 200;
 $config['encoding'] = '8bit';
-
 ?>
