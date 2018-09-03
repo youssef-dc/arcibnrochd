@@ -28,7 +28,7 @@ class Soumission_model extends CI_Model {
                 $this->auteurs  = $_POST['auteurs'];
                  $this->texte    = $_POST['texte']; 
                  
-                 $this->id_compte    = 0; 
+                 $this->id_compte    = $_SESSION['id_compte']; 
                 
                // $this->service     = time();
 

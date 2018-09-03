@@ -102,10 +102,11 @@ if (isset($row))
        $prenom = '';
        $email='';
        $password='';
+       $id='';
   /*     
  $utilisateur_session = array(
 'username'  => $row['username'],
-        'password'     => $row['password'],
+			'password'     => $row['password'],
 
         'nom'     => $row['nom']
 
@@ -115,7 +116,8 @@ if (isset($row))
 //$this->session->set_userdata($utilisateur_session);
   $this->session->set_userdata('nom',$row['nom']);
 $this->session->set_userdata('prenom',$row['prenom']);
-$this->session->set_userdata('email',$email);
+$this->session->set_userdata('email',$row['email']);
+$this->session->set_userdata('id_compte',$row['id']);
 
 
       
@@ -141,6 +143,8 @@ $this->session->set_userdata('email',$email);
          $this->session->unset_userdata('nom');
          $this->session->unset_userdata('prenom');
          $this->session->unset_userdata('email'); 
+         $this->session->unset_userdata('id_compte');
+         
          redirect('Accueil'); 
       } 
 
