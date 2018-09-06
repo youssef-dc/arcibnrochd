@@ -4,9 +4,9 @@ defined('BASEPATH') OR exit('No direct script access allowed.');
 $config['useragent'] = 'PHPMailer'; // Mail engine switcher: 'CodeIgniter' or 'PHPMailer'
 $config['protocol'] = 'mail'; // 'mail', 'sendmail', or 'smtp'
 $config['mailpath'] = '/usr/sbin/sendmail';
-$config['smtp_host'] = 'mail.arcibnrochd.com '; //  ssl://smtp.gmail.com  mail.arcibnrochd.com
-$config['smtp_user'] = 'contact@arcibnrochd.com';  // 
-$config['smtp_pass'] = 'Admin2018';  // testtesy123  ,
+$config['smtp_host'] = ' '; //  
+$config['smtp_user'] = '';  // 
+$config['smtp_pass'] = '';  //   ,
 $config['smtp_port'] = 465;
 $config['smtp_timeout'] = 30; // (in seconds)
 $config['smtp_crypto'] = 'tls'; // '' or 'tls' or 'ssl'
