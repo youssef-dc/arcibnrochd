@@ -17,7 +17,7 @@
     <div class="main-contact">
         <div class="container">
             <div class="row">
-                                <div class="col-md-4 col-sm-6 col-xs-12 mb-contact">
+                                <div class="col-md-3 col-sm-6 col-xs-12 mb-contact">
                                     <p>
                                         <h3>Titre pour correcteur</h3>
                                         <br/>
@@ -29,7 +29,7 @@
 description texte description texte description texte description texte description texte description texte description texte description texte description texte description texte description texte 
                                     </p>
                                 </div>
-                <div class="col-md-8 col-sm-6 col-xs-12">
+                <div class="col-md-9 col-sm-6 col-xs-12">
                     <div class="leave-reply">
 
                     <table>
@@ -38,38 +38,18 @@ description texte description texte description texte description texte descript
                                 <th class="column1">Titre</th>
                                 <th class="column2">Etablissement</th>
                                 <th class="column3">Auteurs</th>
+                                <th class="column4" style="text-align: left;">Villes</th>
                             </tr>
                         </thead>
                         <tbody>
-                               
+                               <?php if(isset($soumissions)){ foreach($soumissions as $soumission) { ?>
                                 <tr  onclick="location.href='http://www.google.com'">
-                                    <td class="column1">2017-09-19 05:57</td>
-                                    <td class="column2">200387</td>
-                                    <td class="column3">iPhone X 64Gb Grey</td>
+                                    <td class="column1"><?php echo $soumission->titre ; ?></td>
+                                    <td class="column2"><?php echo $soumission->etablissements ; ?></td>
+                                    <td class="column3"><?php echo $soumission->auteurs ; ?></td>
+                                    <td class="column4" style="text-align: left;"><?php echo $soumission->ville ; ?></td>
                                 </tr>
-                                <tr>
-                                    <td class="column1">2017-09-18 05:57</td>
-                                    <td class="column2">200386</td>
-                                    <td class="column3">iPhone X 64Gb Grey</td>
-                                </tr>
-                                
-                                <tr  onclick="location.href='http://www.google.com'">
-                                    <td class="column1">2017-09-19 05:57</td>
-                                    <td class="column2">200387</td>
-                                    <td class="column3">iPhone X 64Gb Grey</td>
-                                </tr>
-                                <tr>
-                                    <td class="column1">2017-09-18 05:57</td>
-                                    <td class="column2">200386</td>
-                                    <td class="column3">iPhone X 64Gb Grey</td>
-                                </tr>
-                                
-                                <tr  onclick="location.href='http://www.google.com'">
-                                    <td class="column1">2017-09-19 05:57</td>
-                                    <td class="column2">200387</td>
-                                    <td class="column3">iPhone X 64Gb Grey</td>
-                                </tr>
-                                
+                                <?php }} ?>
                         </tbody>
                     </table>
 

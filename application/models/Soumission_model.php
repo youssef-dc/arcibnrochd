@@ -44,6 +44,14 @@ class Soumission_model extends CI_Model {
                 $this->db->update('soumission', $this, array('id' => $_POST['id']));
         }
 
+        public function getByService($service){
+			$this->db->select('*');
+	        $this->db->from('soumission');
+	        $this->db->where('services', $service);
+	        $query = $this->db->get();
+	        return $query->result();
+        }
+
 }
 
 ?>

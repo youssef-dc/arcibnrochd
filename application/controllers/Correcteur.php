@@ -28,6 +28,9 @@ class Correcteur extends CI_Controller {
 	{
 		$this->load->view('header');
 		$this->load->view('menu');
+		$this->load->model('Soumission_model');
+		$service = (isset($_SESSION['service'])) ? $_SESSION['service'] : '' ;
+		$this->data['soumissions'] = $this->Soumission_model->getByService($service);
 		$this->load->view('listing_soumissions', $this->data);
 		$this->load->view('footer');
 	}
