@@ -26,7 +26,7 @@ class Correcteur extends CI_Controller {
 	 */
 	public function index()
 	{
-		if(!$this->session->has_userdata('nom')){
+		if(!$this->session->has_userdata('username')){
 			redirect ('Compte');
 		}
 		$this->load->view('header');
