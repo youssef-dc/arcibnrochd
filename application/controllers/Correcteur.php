@@ -41,7 +41,7 @@ class Correcteur extends CI_Controller {
 
 
 	public function soumission($id){		
-		if(!$this->session->has_userdata('nom')){
+		if(!$this->session->has_userdata('service')){
 			redirect ('Compte');
 		}
 		$this->load->view('header');
