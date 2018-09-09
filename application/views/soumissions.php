@@ -100,6 +100,7 @@ Vous devez d’abord valider toutes les étapes pour soumettre un résumé.
 <option value="ophtalmologie">  Ophtalmologie   </option>
 <option value="traumato-orthopedique">  Traumato-orthopédique   </option>
 <option value="urologie">  Urologie    </option>
+<option value="chirurgie-plastique-et-reparatrice">  Chirurgie plastique et réparatrice    </option>
 
   </optgroup>
 </select>
