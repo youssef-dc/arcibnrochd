@@ -26,6 +26,9 @@ class Correcteur extends CI_Controller {
 	 */
 	public function index()
 	{
+		if(!$this->session->has_userdata('nom')){
+			redirect ('Compte');
+		}
 		$this->load->view('header');
 		$this->load->view('menu');
 		$this->load->model('Soumission_model');
@@ -37,5 +40,37 @@ class Correcteur extends CI_Controller {
 
 
 
+	public function soumission($id){		
+		if(!$this->session->has_userdata('nom')){
+			redirect ('Compte');
+		}
+		$this->load->view('header');
+		$this->load->view('menu');
+		$this->load->model('Soumission_model');
+		$soumission = $this->Soumission_model->getById($id);
+		$this->data['soumission'] = $soumission;		
+		$this->load->view('soumission', $this->data);
+		$this->load->view('footer');
+	}
+
+	public function validation(){
+		$status = 0 ;
+		switch ($_POST['valide']) {
+            case 'VALIDE':                                                    
+                $status = 1 ;
+                break;
+            case 'NON VALIDE':                                                    
+                $status = 2 ;
+                break;
+        }
+		$soumission = array(
+			'id' => $_POST['id_soumission'],
+			'status' => $status,
+			'communication' => $_POST['com'], 
+			);
+		$this->load->model('Soumission_model');
+		$this->Soumission_model->update_soumission($soumission);
+		$this->index();
+	}
 
 }

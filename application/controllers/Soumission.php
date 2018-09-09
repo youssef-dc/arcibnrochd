@@ -72,7 +72,4 @@ public function save()
 		$this->load->view('index', $this->data);
 		$this->load->view('footer');
 	}
-
-
-
 }

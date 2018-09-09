@@ -103,6 +103,15 @@ if (isset($row))
        $email='';
        $password='';
        $id='';
+       $iscorrecteur=0;
+       
+       if($row['correcteur']>0){
+           
+           // CARDIOLOGIE
+           $this->session->set_userdata('service',$row['username']);
+redirect('Correcteur');
+       }
+      // $service='';
   /*     
  $utilisateur_session = array(
 'username'  => $row['username'],

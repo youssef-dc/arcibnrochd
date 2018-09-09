@@ -8,9 +8,9 @@ class Soumission_model extends CI_Model {
         public $pays;
         public $auteurs;
         public $texte;
-        
+        public $status;        
         public $id_compte;
-       
+        public $communication;
 
         public function get_last_ten_entries()
         {
@@ -35,21 +35,26 @@ class Soumission_model extends CI_Model {
                 $this->db->insert('soumission', $this);
         }
 
-        public function update_entry()
+        public function update_soumission($soumission)
         {
-//                $this->nom    = $_POST['nom'];
-  //              $this->prenom  = $_POST['prenom'];
-               // $this->date     = time();
 
-                $this->db->update('soumission', $this, array('id' => $_POST['id']));
+                $this->db->update('soumission', $soumission, array('id' => $soumission['id']));
         }
 
         public function getByService($service){
-			$this->db->select('*');
-	        $this->db->from('soumission');
-	        $this->db->where('services', $service);
-	        $query = $this->db->get();
-	        return $query->result();
+      $this->db->select('*');
+          $this->db->from('soumission');
+          $this->db->where('services', $service);
+          $query = $this->db->get();
+          return $query->result();
+        }
+
+        public function getById($id){
+      $this->db->select('*');
+          $this->db->from('soumission');
+          $this->db->where('id', $id);
+          $query = $this->db->get();
+          return $query->row();
         }
 
 }

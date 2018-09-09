@@ -39,15 +39,37 @@ description texte description texte description texte description texte descript
                                 <th class="column2">Etablissement</th>
                                 <th class="column3">Auteurs</th>
                                 <th class="column4" style="text-align: left;">Villes</th>
+                                <th class="column5" style="text-align: left;">Status</th>
                             </tr>
                         </thead>
                         <tbody>
                                <?php if(isset($soumissions)){ foreach($soumissions as $soumission) { ?>
-                                <tr  onclick="location.href='http://www.google.com'">
+                                <tr  onclick="location.href='<?php echo site_url("correcteur/soumission/".$soumission->id) ; ?>'">
                                     <td class="column1"><?php echo $soumission->titre ; ?></td>
                                     <td class="column2"><?php echo $soumission->etablissements ; ?></td>
                                     <td class="column3"><?php echo $soumission->auteurs ; ?></td>
                                     <td class="column4" style="text-align: left;"><?php echo $soumission->ville ; ?></td>
+                                    <td class="column4" style="text-align: left;">
+                                        <?php  
+                                            switch ($soumission->status) {
+                                                case 0:
+                                                    echo "non traitee";
+                                                    break;
+                                                
+                                                case 1:                                                    
+                                                    echo "valide";
+                                                    break;
+                                                
+                                                case 2:                                                    
+                                                    echo "non valide";
+                                                    break;
+                                                
+                                                default:
+                                                    echo "non traitee";
+                                                    break;
+                                            }
+                                        ?>
+                                    </td>
                                 </tr>
                                 <?php }} ?>
                         </tbody>
