@@ -22,6 +22,9 @@
 						<li class="<?php echo (isset($active_evenement) ? $active_evenement : null );?>">
 							<a href="<?php echo site_url("soumission");?>" class="about-us" title="Evenement">JSR18</a>
 						</li>
+						<li class="<?php echo (isset($active_evenement) ? $active_evenement : null );?>">
+							<a href="<?php echo site_url("soumission/liste");?>" class="about-us" title="Evenement">Resultat du JSR18</a>
+						</li>
 						<li class="last <?php echo (isset($active_contact) ? $active_contact : null) ;?>">
 							<a href="#" class="contact" title="Contact">CONTACT</a>
 						</li>

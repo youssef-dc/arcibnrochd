@@ -17,6 +17,7 @@
                                     <h4>Association des Médecins Résidents de Casablanca</h4>
                                     <div class="buttons">
                                         <a href="<?php  echo base_url().'Soumission'; ?>" class="red-btn red-btn-0">Soumission</a>
+                                        <a href="<?php  echo base_url().'soumission/liste'; ?>" class="red-btn red-btn-0">Resultat des soumissions</a>
                                     </div>
                                 </div>
                             </div>
@@ -31,6 +32,7 @@
                                     <h4>Association des Médecins Résidents de Casablanca</h4>
                                     <div class="buttons">
                                         <a href="<?php  echo base_url().'Soumission'; ?>" class="red-btn red-btn-0">Soumission</a>
+                                        <a href="<?php  echo base_url().'soumission/liste'; ?>" class="red-btn red-btn-0">Resultat des soumissions</a>
                                     </div>
                                 </div>
                             </div>
@@ -45,6 +47,7 @@
                                     <h4>Association des Médecins Résidents de Casablanca</h4>
                                     <div class="buttons">
                                         <a href="<?php  echo base_url().'Soumission'; ?>" class="red-btn red-btn-0">Soumission</a>
+                                        <a href="<?php  echo base_url().'soumission/liste'; ?>" class="red-btn red-btn-0">Resultat des soumissions</a>
                                     </div>
                                 </div>
                             </div>

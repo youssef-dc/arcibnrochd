@@ -57,6 +57,26 @@ class Soumission_model extends CI_Model {
           return $query->row();
         }
 
+
+        public function getDistinctServices(){
+          $this->db->distinct();
+          $this->db->select('services');
+          $this->db->from('soumission');
+          $query = $this->db->get();
+          return $query->result();
+        }
+
+
+        public function getForListing($comm = null){
+          $this->db->select('titre, auteurs, services, communication, status');
+          $this->db->from('soumission');
+          $this->db->where('status', '1');
+          if (!empty($comm)) {    
+            $this->db->where('communication', $comm);
+          }
+          $query = $this->db->get();
+          return $query->result();
+        }
 }
 
 ?>
